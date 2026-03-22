@@ -167,19 +167,19 @@ console.log("--- forEach ---");
 forEach(nums, (el) => console.log(el * 10));
 
 console.log("--- map ---");
-console.log(map(nums, el => el * el)); // [1, 4, 9, 16, 25]
+console.log(map(nums, el => el * el));
 
 console.log("--- filter ---");
-console.log(filter(nums, el => el > 3)); // [4, 5]
+console.log(filter(nums, el => el > 3));
 
 console.log("--- find ---");
-console.log(find(nums, el => el % 2 === 0)); // 2
+console.log(find(nums, el => el % 2 === 0));
 
 console.log("--- some ---");
-console.log(some(nums, el => el > 4)); // true
+console.log(some(nums, el => el > 4));
 
 console.log("--- every ---");
-console.log(every(nums, el => el > 0)); // true
+console.log(every(nums, el => el > 0));
 
 console.log("--- reduce ---");
-console.log(reduce(nums, (acc, el) => acc + el, 0)); // 15
+console.log(reduce(nums, (acc, el) => acc + el, 0));
